@@ -4,7 +4,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE_NAME = "TreyEverson/train-schedule"
+        DOCKER_IMAGE_NAME = "treyeverson/train-schedule"
         CANARY_REPLICAS = 0
     }
     stages {
