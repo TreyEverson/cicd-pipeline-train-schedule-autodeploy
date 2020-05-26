@@ -12,7 +12,7 @@ spec:
 
 ---
 
-apiVersion: apps/vlbetaq
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: train-schedule-deployment
